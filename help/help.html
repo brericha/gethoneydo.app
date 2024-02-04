@@ -1,0 +1,20 @@
+---
+layout: page
+permalink: /help/index.html
+---
+
+<div class="row">
+    <div class="col">
+        <h1>Help</h1>
+        <p class="lead">If you need some help using Honeydo please feel free to check out our help pages.</p>
+        <p>For anything not covered by these pages, please feel free to contact us at <a class="link-dark" href="mailto:help@gethoneydo.app">help@gethoneydo.app</a>.</p>
+    </div>
+    <div class="col-md-3">
+    <h3>Pages</h3>
+    <div class="list-group list-group-flush">
+        {% for post in site.categories.help %}
+        <a href="{{ post.url }}" class="list-group-item list-group-item-action">{{ post.title }}</a>
+        {% endfor %}
+    </div>
+    </div>
+</div>
