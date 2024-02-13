@@ -11,15 +11,23 @@ permalink: /help/editing-tasks.html
 
 ## Creating a Task
 
+----
+
 Tap the + button to open the new task dialog. There are several fields you can fill out when creating a new task.
 
+&nbsp;
+
 ## Editing a Task
+
+----
 
 Long press on a task and select "Edit" from the dropdown menu.
 
 &nbsp;
 
 ## Task Fields
+
+----
 
 ### Title
 
