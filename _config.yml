@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   If you've wished your partner would remember your requests more often, Honeydo is here to help!
 baseurl: ""
 url: "https://gethoneydo.app"
-appstore_url: "https://www.apple.com/app-store/" # TODO: Replace with App Store link
+appstore_url: "https://apps.apple.com/us/app/honeydo-task-together/id6475327895?platform=iphone"
 playstore_url: "https://play.google.com/store/apps/details?id=dev.fingertips.honeydo"
 
 # Build settings
