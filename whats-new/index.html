@@ -1,0 +1,17 @@
+---
+layout: page
+permalink: /whats-new/index.html
+---
+
+<h1>What's New</h1>
+<div class="row">
+    <div class="col-lg-3">
+        
+
+        <div class="list-group list-group-flush">
+            {% for post in site.categories.changelog %}
+            <a href="{{ post.url }}" class="list-group-item list-group-item-action">{{ post.title }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
