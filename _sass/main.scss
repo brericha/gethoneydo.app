@@ -23,7 +23,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     height: 3rem;
 }
 
-#download {
+section#features {
     background-color: $primary-bg-subtle;
 }
 
@@ -55,6 +55,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     font-family: "Petrona", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: bold;
     font-optical-sizing: auto;
+}
+
+.navbar-brand .logo {
+    width: 60px;
+    height: 60px;
 }
 
 section {
