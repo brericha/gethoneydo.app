@@ -16,7 +16,11 @@
         </script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        {% if page.title %}
+        <title> {{ page.title }} | {{ site.title }}</title>
+        {% else %}
         <title>{{ site.title }}</title>
+        {% endif %}
         <meta name="description" content="{{ site.description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/assets/styles.css">
@@ -63,7 +67,7 @@
         <div class="footer mt-auto">
             <div class="container text-center">
                 <p>&copy; Made With Fingertips 2024. All Rights Reserved.</p>
-                <p><a href="help/index.html">Help</a> · <a href="/docs/privacy.html" target="_blank">Privacy Policy</a> · <a href="/docs/terms.html" target="_blank">Terms of Service</a></p>
+                <p><a href="/help/index.html">Help</a> · <a href="/docs/privacy.html" target="_blank">Privacy Policy</a> · <a href="/docs/terms.html" target="_blank">Terms of Service</a></p>
             </div>
         </div>
     </body>
