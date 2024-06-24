@@ -44,14 +44,12 @@ section#features {
     padding-bottom: 5rem;
 }
 
-.navbar-brand {
-    display: table;
+.navbar {
+    height: 100px;
 }
 
 .navbar-brand span {
-    display: table-cell;
-    vertical-align: middle;
-    padding-left: 30px;
+    margin-left: 20px;
     font-family: "Nurom", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-optical-sizing: auto;
 }
