@@ -44,6 +44,17 @@ section#features {
     padding-bottom: 5rem;
 }
 
+.masthead p {
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.slogan {
+    font-family: "Nurom", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-optical-sizing: auto;
+    text-align: center;
+}
+
 .navbar {
     height: 100px;
 }
